@@ -19,6 +19,6 @@ class VideoProvider extends ChangeNotifier {
       autoPlay: true,
       looping: true,
     );
-    notifyListeners();
+    // notifyListeners();
   }
 }
