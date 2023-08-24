@@ -16,10 +16,6 @@ class _videoscreenState extends State<videoscreen> {
   Widget build(BuildContext context) {
     return Consumer<VideoProvider>(
       builder: (context, provider, child) => Scaffold(
-        appBar: AppBar(
-          centerTitle: true,
-          title: Text("Video Player"),
-        ),
         body: SingleChildScrollView(
           physics: const BouncingScrollPhysics(),
           child: Column(

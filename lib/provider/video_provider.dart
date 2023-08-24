@@ -8,7 +8,7 @@ class VideoProvider extends ChangeNotifier {
 
   open() {
     videocontroller = VideoPlayerController.asset(
-        'http://techslides.com/demos/sample-videos/small.mp4',
+        'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
     )
       ..initialize().then((_) {
         print("url : ${videocontroller.value}");

@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:media_booster/provider/slider_provider.dart';
 import 'package:media_booster/provider/video_provider.dart';
-import 'package:media_booster/screen/video_screen.dart';
+import 'package:media_booster/screen/homescreen.dart';
 
 import 'package:provider/provider.dart';
 
@@ -9,6 +10,8 @@ void main() {
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider(create: (context) => VideoProvider()),
+      ChangeNotifierProvider(create: (context) => sliderprovider(),
+      ),
     ],
     child: MyApp(),
   ));
@@ -31,7 +34,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: videoscreen(),
+      home: homescreen()
     );
   }
 }
