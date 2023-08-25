@@ -1,16 +1,4 @@
-# media_booster
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot 2023-08-25 001119](https://github.com/MannMeruliya/media_booster/assets/113959975/679542fb-423c-409d-b3ec-bb0b0d663b23)
+![Screenshot 2023-08-25 001202](https://github.com/MannMeruliya/media_booster/assets/113959975/e01c9842-8c21-4c1f-8fa5-d4c0c9ac05e7)
+![Screenshot 2023-08-25 001310](https://github.com/MannMeruliya/media_booster/assets/113959975/5cb3f834-1e37-477e-bafc-89cd85294df0)
+![Screenshot 2023-08-25 001438](https://github.com/MannMeruliya/media_booster/assets/113959975/d558e5b7-d0b0-495d-8191-cdf8ee6a59bb)
